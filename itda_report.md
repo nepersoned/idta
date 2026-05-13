@@ -54,7 +54,7 @@
 | `date` | 리뷰 작성 날짜 |
 | `text` | 리뷰 본문 텍스트 |
 
-![Distribution of User-Level Spam Rate](archive/results_and_others/dist_user_prod.png)
+![Distribution of User-Level Spam Rate](dist_user_prod.png)
 
 ---
 
@@ -186,7 +186,7 @@ YelpZip을 직접 분석해 사기 리뷰의 구조적 패턴을 먼저 확인�
 
 작업장의 두 가지 영업 방식(경쟁 업체 공격 / 의뢰 업체 홍보)이 별점 분포에 그대로 드러난다.
 
-![Class Distribution & Rating Distribution](archive/results_and_others/dist_basic.png)
+![Class Distribution & Rating Distribution](dist_basic.png)
 
 **사용자별 사기 비율 이중 피크 (핵심 발견)**
 
@@ -204,7 +204,7 @@ YelpZip을 직접 분석해 사기 리뷰의 구조적 패턴을 먼저 확인�
 
 월별 사기 비율 추이에서 **2012년 전반기(1~6월)는 사기 비율이 15~16%로 전체 평균(13.22%)보다 약 2~3%p 지속적으로 높았다**. 6개월간 유지된 이 이탈은 통계적 노이즈가 아닌 실제 작업장의 집중 운영 시기를 반영한다. 이는 전략 C(시간 중심 샘플링) 설계 근거이기도 하다.
 
-![Monthly Spam Rate Trend](archive/results_and_others/dist_time.png)
+![Monthly Spam Rate Trend](dist_time.png)
 
 **상품별 파워 로우**
 
@@ -216,7 +216,7 @@ YelpZip을 직접 분석해 사기 리뷰의 구조적 패턴을 먼저 확인�
 
 이것이 GNN이 필요한 핵심 이유다. **개별 정보로 판단이 어려운 리뷰도, 같은 사용자의 다른 리뷰나 같은 가게에서 동일한 핵심 토큰을 가진 이웃 리뷰를 함께 보면 탐지가 가능해진다.** EDA에서 발견한 이중 피크·별점 집중·텍스트 이탈 패턴을 엣지로 인코딩함으로써, 수치 피처 단독으로는 잡을 수 없는 사기 신호를 그래프 구조가 보완한다.
 
-![t-SNE: Numeric Features Only (Normal vs Fraud)](archive/results_and_others/tsne.png)
+![t-SNE: Numeric Features Only (Normal vs Fraud)](tsne.png)
 
 **EDA 발견 요약 — 엣지 설계 연결**
 
