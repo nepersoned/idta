@@ -239,6 +239,7 @@ EDA에서 도출한 아이디어를 학술 문헌과 대조해 근거를 확보�
 |---|---|
 | R-U-R (동일 사용자) | Dou et al. (2020) + YelpChi 관계 정의 관례 + YelpZip EDA |
 | 텍스트 중복·prefix | Jindal & Liu (2007) — 중복 리뷰가 스팸의 핵심 징후 |
+| 버스트·집중 리뷰 패턴  | Mukherjee et al. (2013) -특정 시기에 집중적으로 생성되는 리뷰 폭주 현상을 작업장 신호로 분석 |
 | 별점-감성 불일치 | Sharifpour et al. (2024) — Rating-Sentiment Inconsistency |
 
 **③ 엄선된 후보로 조합 검증**
