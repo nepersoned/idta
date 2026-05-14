@@ -407,3 +407,14 @@ SentimentMismatch 엣지(5,655개)는 의뢰받은 별점과 실제 작성 감�
 - Mukherjee, A., Venkataraman, V., Liu, B., & Glance, N. (2013). **What Yelp Fake Review Filter Might Be Doing?** *ICWSM 2013.* (YelpZip 데이터셋 출처, 버스트 패턴)
 - Sharifpour, T., & Lahmiri, S. (2024). **Fake Review Detection Using Rating-Sentiment Inconsistency.** *IEEE 2024.* (별점-감성 불일치를 정량화해 감성 기반 커스텀 엣지 설계 근거를 제공)
 - Wu, F., Souza, A., Zhang, T., Fifty, C., Yu, T., & Weinberger, K. Q. (2019). **Simplifying Graph Convolutional Networks.** *ICML 2019.* (본 프로젝트의 최종 채택 모델 SGC의 원 논문 — 레이어별 비선형 활성화를 제거하고 전파 행렬 $S^K$를 사전 계산해 선형 분류기로 단순화)
+
+|노드: |50,000건| 
+|스팸: |29.0%| 
+|총 엣지: |55,465개| 
+|RUR |13,235| 
+|DeviationSelf |9,530| 
+|PROD_MON_PFX |426| 
+|PROD_SIG |1,619| 
+|Sentiment Mismatch |5,655| 
+|self-loop |25,000|
+|Random State: |42|
