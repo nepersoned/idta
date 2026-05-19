@@ -423,5 +423,5 @@ SentimentMismatch 엣지(5,655개)는 의뢰받은 별점과 실제 작성 감�
 
 | 구분 (Category) | 상세 내용 (Details) |
 | :--- | :--- |
-| **최종 5개 엣지 조합** | R-U-R + DeviationSelf + PROD_MON_PFX + PROD_SIG + Sentiment Mismatch |
-| **PR-AUC 향상도** | • SGC 베이스라인 대비 **+6.9%** 향상<br>• 강한 GCN 베이스라인 대비 **+6.1%** 향상 |
+| **최종 4개 엣지 조합** | R-U-R + DeviationSelf + PROD_MON_PFX + PROD_SIG  |
+| **PR-AUC 향상도** | • SGC 베이스라인 대비 **약6%** 향상<br>• 강한 GCN 베이스라인 대비 **약6%** 향상 |
