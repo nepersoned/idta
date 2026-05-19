@@ -266,7 +266,6 @@ EDA에서 도출한 아이디어를 학술 문헌과 대조해 근거를 확보�
 | DeviationSelf | 동일 사용자+스타일 이탈 | 사용자 평소 패턴 이탈 리뷰 | 9,530개 |
 | PROD_MON_PFX | 동일 상품+월, 텍스트 도입부 일치 | 집중 운영 시기 대량 생산 리뷰 | 426개 |
 | PROD_SIG | 동일 가게+핵심 토큰 서명 | 문구 변형형 복붙 리뷰 | 1,619개 |
-| SentimentMismatch | 별점-감성 방향 불일치 | 별점 조작+감성 역방향 리뷰 | 5,655개 |
 
 ---
 
@@ -417,7 +416,7 @@ SentimentMismatch 엣지(5,655개)는 의뢰받은 별점과 실제 작성 감�
 | **DeviationSelf** | 9,530 |
 | **PROD_MON_PFX** | 426 |
 | **PROD_SIG** | 1,619 |
-| **Sentiment Mismatch** | 5,655 |
+
 | **Self-loop** | 25,000 |
 | **Random State** | 42 |
 
